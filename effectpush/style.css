@@ -1,0 +1,47 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #555652;
+	font-family: consolas;
+}
+
+.main
+{
+	margin: auto;
+    margin-top: 50px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+.main img 
+{     
+    margin: 25px;
+  
+	border-radius: 10px;
+	height: 300px;
+	width: 300px;
+    transition: 0.30s;
+}
+.card img
+{
+	border-radius: 10px;
+	border: 2px solid #111;
+}
+.main img:hover
+{
+   transform: scale(1.10);
+}
